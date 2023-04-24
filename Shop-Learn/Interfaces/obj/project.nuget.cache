@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "CNsDrFuIJKiRdUPRzpA4qeQxiiv+v4mf51ongc/Urd3rNmxYDX5wb6CAGVX0i50/MFbIuPMbbzKfuw6KpJhlKA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Настенька\\Asp-Shop-Learing\\Shop-Learn\\Interfaces\\Interfaces.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Настенька\\.nuget\\packages\\shed.corekit.webapi.abstractions\\1.0.0\\shed.corekit.webapi.abstractions.1.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

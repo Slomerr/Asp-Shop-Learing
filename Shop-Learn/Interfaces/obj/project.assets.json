@@ -1,0 +1,97 @@
+{
+  "version": 3,
+  "targets": {
+    "net7.0": {
+      "Shed.CoreKit.WebApi.Abstractions/1.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.1/Shed.CoreKit.WebApi.Abstractions.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Shed.CoreKit.WebApi.Abstractions.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Shed.CoreKit.WebApi.Abstractions/1.0.0": {
+      "sha512": "oWHRbXXbzyuB5d7qQCRHCow1gfx9Gxc43oF2VPSQ7GUXUPfKnoW9jeeMUDLmvrWWczNZMbmtSQJincF/gUJBkg==",
+      "type": "package",
+      "path": "shed.corekit.webapi.abstractions/1.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netcoreapp3.1/Shed.CoreKit.WebApi.Abstractions.dll",
+        "shed.corekit.webapi.abstractions.1.0.0.nupkg.sha512",
+        "shed.corekit.webapi.abstractions.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net7.0": [
+      "Shed.CoreKit.WebApi.Abstractions >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Настенька\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Настенька\\Asp-Shop-Learing\\Shop-Learn\\Interfaces\\Interfaces.csproj",
+      "projectName": "Interfaces",
+      "projectPath": "C:\\Users\\Настенька\\Asp-Shop-Learing\\Shop-Learn\\Interfaces\\Interfaces.csproj",
+      "packagesPath": "C:\\Users\\Настенька\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Настенька\\Asp-Shop-Learing\\Shop-Learn\\Interfaces\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Настенька\\AppData\\Roaming\\NuGet\\NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net7.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net7.0": {
+        "targetAlias": "net7.0",
+        "dependencies": {
+          "Shed.CoreKit.WebApi.Abstractions": {
+            "target": "Package",
+            "version": "[1.0.0, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.105\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

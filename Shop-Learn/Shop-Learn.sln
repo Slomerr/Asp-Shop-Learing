@@ -6,7 +6,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Middleware", "Middleware\Mi
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Microservices", "Microservices", "{6B35B81A-78B4-429B-86BC-456CBFECCC8E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AcriviryLogger", "AcriviryLogger\AcriviryLogger.csproj", "{D484F61E-8F5C-4FB8-BCA2-145A87FF80D3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ActiviryLogger", "ActiviryLogger\ActiviryLogger.csproj", "{D484F61E-8F5C-4FB8-BCA2-145A87FF80D3}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShoppingCart", "ShoppingCart\ShoppingCart.csproj", "{E172D9F0-1C7D-44FB-BD61-74877282B2A2}"
 EndProject

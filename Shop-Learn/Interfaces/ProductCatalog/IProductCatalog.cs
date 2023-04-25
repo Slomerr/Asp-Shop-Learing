@@ -4,7 +4,7 @@ namespace Interfaces.ProductCatalog;
 
 public interface IProductCatalog
 {
-    IEnumerator<Product> Get();
+    IEnumerable<Product> Get();
 
     [Route("get/{productId}")]
     Product Get(Guid productId);

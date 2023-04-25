@@ -4,14 +4,14 @@
     "C:\\Users\\Настенька\\Asp-Shop-Learing\\Shop-Learn\\ShoppingCart\\ShoppingCart.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Настенька\\Asp-Shop-Learing\\Shop-Learn\\ShoppingCart\\ShoppingCart.csproj": {
+    "C:\\Users\\Настенька\\Asp-Shop-Learing\\Shop-Learn\\Interfaces\\Interfaces.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Настенька\\Asp-Shop-Learing\\Shop-Learn\\ShoppingCart\\ShoppingCart.csproj",
-        "projectName": "ShoppingCart",
-        "projectPath": "C:\\Users\\Настенька\\Asp-Shop-Learing\\Shop-Learn\\ShoppingCart\\ShoppingCart.csproj",
+        "projectUniqueName": "C:\\Users\\Настенька\\Asp-Shop-Learing\\Shop-Learn\\Interfaces\\Interfaces.csproj",
+        "projectName": "Interfaces",
+        "projectPath": "C:\\Users\\Настенька\\Asp-Shop-Learing\\Shop-Learn\\Interfaces\\Interfaces.csproj",
         "packagesPath": "C:\\Users\\Настенька\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Настенька\\Asp-Shop-Learing\\Shop-Learn\\ShoppingCart\\obj\\",
+        "outputPath": "C:\\Users\\Настенька\\Asp-Shop-Learing\\Shop-Learn\\Interfaces\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Настенька\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -37,6 +37,131 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "dependencies": {
+            "Shed.CoreKit.WebApi.Abstractions": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.105\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Настенька\\Asp-Shop-Learing\\Shop-Learn\\Middleware\\Middleware.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Настенька\\Asp-Shop-Learing\\Shop-Learn\\Middleware\\Middleware.csproj",
+        "projectName": "Middleware",
+        "projectPath": "C:\\Users\\Настенька\\Asp-Shop-Learing\\Shop-Learn\\Middleware\\Middleware.csproj",
+        "packagesPath": "C:\\Users\\Настенька\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Настенька\\Asp-Shop-Learing\\Shop-Learn\\Middleware\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Настенька\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.105\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Настенька\\Asp-Shop-Learing\\Shop-Learn\\ShoppingCart\\ShoppingCart.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Настенька\\Asp-Shop-Learing\\Shop-Learn\\ShoppingCart\\ShoppingCart.csproj",
+        "projectName": "ShoppingCart",
+        "projectPath": "C:\\Users\\Настенька\\Asp-Shop-Learing\\Shop-Learn\\ShoppingCart\\ShoppingCart.csproj",
+        "packagesPath": "C:\\Users\\Настенька\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Настенька\\Asp-Shop-Learing\\Shop-Learn\\ShoppingCart\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Настенька\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\Настенька\\Asp-Shop-Learing\\Shop-Learn\\Interfaces\\Interfaces.csproj": {
+                "projectPath": "C:\\Users\\Настенька\\Asp-Shop-Learing\\Shop-Learn\\Interfaces\\Interfaces.csproj"
+              },
+              "C:\\Users\\Настенька\\Asp-Shop-Learing\\Shop-Learn\\Middleware\\Middleware.csproj": {
+                "projectPath": "C:\\Users\\Настенька\\Asp-Shop-Learing\\Shop-Learn\\Middleware\\Middleware.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Shed.CoreKit.WebApi": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

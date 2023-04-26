@@ -31,6 +31,5 @@ app.UseCors(builder =>
 });
 
 app.UseWebApiEndpoint<IProductCatalog>();
-app.MapGet("/", () => "Hello World!");
 
 app.Run();

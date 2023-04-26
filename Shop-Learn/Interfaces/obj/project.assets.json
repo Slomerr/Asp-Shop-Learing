@@ -33,24 +33,26 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Настенька\\.nuget\\packages\\": {}
+    "C:\\Users\\79994\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Настенька\\Asp-Shop-Learing\\Shop-Learn\\Interfaces\\Interfaces.csproj",
+      "projectUniqueName": "D:\\Projects\\Asp\\Asp-Shop-Learing\\Shop-Learn\\Interfaces\\Interfaces.csproj",
       "projectName": "Interfaces",
-      "projectPath": "C:\\Users\\Настенька\\Asp-Shop-Learing\\Shop-Learn\\Interfaces\\Interfaces.csproj",
-      "packagesPath": "C:\\Users\\Настенька\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Настенька\\Asp-Shop-Learing\\Shop-Learn\\Interfaces\\obj\\",
+      "projectPath": "D:\\Projects\\Asp\\Asp-Shop-Learing\\Shop-Learn\\Interfaces\\Interfaces.csproj",
+      "packagesPath": "C:\\Users\\79994\\.nuget\\packages\\",
+      "outputPath": "D:\\Projects\\Asp\\Asp-Shop-Learing\\Shop-Learn\\Interfaces\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Настенька\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\79994\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -90,7 +92,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.105\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }

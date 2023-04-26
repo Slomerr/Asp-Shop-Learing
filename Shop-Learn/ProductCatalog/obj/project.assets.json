@@ -3529,35 +3529,37 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Настенька\\.nuget\\packages\\": {}
+    "C:\\Users\\79994\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Настенька\\Asp-Shop-Learing\\Shop-Learn\\ProductCatalog\\ProductCatalog.csproj",
+      "projectUniqueName": "D:\\Projects\\Asp\\Asp-Shop-Learing\\Shop-Learn\\ProductCatalog\\ProductCatalog.csproj",
       "projectName": "ProductCatalog",
-      "projectPath": "C:\\Users\\Настенька\\Asp-Shop-Learing\\Shop-Learn\\ProductCatalog\\ProductCatalog.csproj",
-      "packagesPath": "C:\\Users\\Настенька\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Настенька\\Asp-Shop-Learing\\Shop-Learn\\ProductCatalog\\obj\\",
+      "projectPath": "D:\\Projects\\Asp\\Asp-Shop-Learing\\Shop-Learn\\ProductCatalog\\ProductCatalog.csproj",
+      "packagesPath": "C:\\Users\\79994\\.nuget\\packages\\",
+      "outputPath": "D:\\Projects\\Asp\\Asp-Shop-Learing\\Shop-Learn\\ProductCatalog\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Настенька\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\79994\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\Настенька\\Asp-Shop-Learing\\Shop-Learn\\Interfaces\\Interfaces.csproj": {
-              "projectPath": "C:\\Users\\Настенька\\Asp-Shop-Learing\\Shop-Learn\\Interfaces\\Interfaces.csproj"
+            "D:\\Projects\\Asp\\Asp-Shop-Learing\\Shop-Learn\\Interfaces\\Interfaces.csproj": {
+              "projectPath": "D:\\Projects\\Asp\\Asp-Shop-Learing\\Shop-Learn\\Interfaces\\Interfaces.csproj"
             },
-            "C:\\Users\\Настенька\\Asp-Shop-Learing\\Shop-Learn\\Middleware\\Middleware.csproj": {
-              "projectPath": "C:\\Users\\Настенька\\Asp-Shop-Learing\\Shop-Learn\\Middleware\\Middleware.csproj"
+            "D:\\Projects\\Asp\\Asp-Shop-Learing\\Shop-Learn\\Middleware\\Middleware.csproj": {
+              "projectPath": "D:\\Projects\\Asp\\Asp-Shop-Learing\\Shop-Learn\\Middleware\\Middleware.csproj"
             }
           }
         }
@@ -3596,7 +3598,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.105\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }

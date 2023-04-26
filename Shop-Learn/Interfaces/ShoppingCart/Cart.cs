@@ -2,5 +2,5 @@ namespace Interfaces.ShoppingCart;
 
 public class Cart
 {
-    private IEnumerable<Order> Orders { get; set; }
+    public IEnumerable<Order> Orders { get; set; }
 }

@@ -7,4 +7,13 @@
         <RootNamespace>AcriviryLogger</RootNamespace>
     </PropertyGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\Interfaces\Interfaces.csproj" />
+      <ProjectReference Include="..\Middleware\Middleware.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Shed.CoreKit.WebApi" Version="1.0.0" />
+    </ItemGroup>
+
 </Project>

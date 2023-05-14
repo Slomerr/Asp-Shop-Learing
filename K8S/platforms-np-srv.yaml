@@ -4,7 +4,7 @@ metadata:
   name: platformnpservice-srv
 spec:
   type: NodePort
-  selectior: 
+  selector: 
     app: platformservice
   ports:
     - name: platformservice

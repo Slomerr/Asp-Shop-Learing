@@ -4,12 +4,26 @@ using PlatformService.Data;
 using PlatformService.SyncDataServices.Http;
 
 var builder = WebApplication.CreateBuilder(args);
+var configuration = builder.Configuration;
 var services = builder.Services;
+var env = builder.Environment;
 
-services.AddDbContext<AppDbContext>(options =>
+if (env.IsProduction())
 {
-    options.UseInMemoryDatabase("InMem");
-});
+    Console.WriteLine("--> Using SqlServier Db");
+    services.AddDbContext<AppDbContext>(options => 
+    {
+        options.UseSqlServer(configuration.GetConnectionString("PlatformsConnection"));
+    });
+}
+else
+{
+    Console.WriteLine("--> Using InMem Db");
+    services.AddDbContext<AppDbContext>(options =>
+    {
+        options.UseInMemoryDatabase("InMem");
+    });
+}
 
 services.AddScoped<IPlatformRepository, PlatformRepository>();
 
@@ -22,6 +36,8 @@ services.AddSwaggerGen(c =>
     c.SwaggerDoc("v1", new OpenApiInfo{Title = "PlatformService", Version = "1.0.0"});
 });
 
+Console.WriteLine($"--> CommandService Endpoint {configuration["CommandService"]}");
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -32,7 +48,7 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
-app.UseHttpsRedirection();
+//app.UseHttpsRedirection();
 
 app.UseRouting();
 
@@ -43,8 +59,8 @@ app.UseEndpoints(endpoints =>
     endpoints.MapControllers();
 });
 
-PrepDb.PrepPopulation(app);
+PrepDb.PrepPopulation(app, env.IsProduction());
 
-app.MapGet("/", () => "hello world");
+//app.MapGet("/", () => "hello world");
 app.Run();
 

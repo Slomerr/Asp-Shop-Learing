@@ -11,7 +11,7 @@ public class PlatformsController : ControllerBase
 
     }
 
-    [HttpGet]
+    [HttpPost]
     public ActionResult TestInboundConnection()
     {
         Console.WriteLine("--> Inbound POST # Command Service");

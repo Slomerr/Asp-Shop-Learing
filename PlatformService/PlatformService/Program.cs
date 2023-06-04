@@ -1,5 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.OpenApi.Models;
+using PlatformService.AsyncDataServices;
 using PlatformService.Data;
 using PlatformService.SyncDataServices.Http;
 
@@ -26,6 +27,7 @@ else
 }
 
 services.AddScoped<IPlatformRepository, PlatformRepository>();
+services.AddSingleton<IMessageBusClient, MessageBusClient>();
 
 services.AddHttpClient<ICommandDataClient, HttpCommandDataClient>();
 
